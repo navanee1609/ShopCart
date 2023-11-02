@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import logo from "../assets/images/logo/logo.png";
 
 const NavItems = () => {
@@ -52,6 +52,32 @@ const NavItems = () => {
                 </div>
             </div>
             </div>
+
+            {/* menu */}
+              {/* menu area */}
+              <div className="menu-area">
+              <div className="menu">
+                <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="shop">Shop</Link>
+                  </li>
+                  <li>
+                    <Link to="/blog">Blog</Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <NavLink to="/about">About</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/contact">Contact</NavLink>
+                  </li>
+                </ul>
+              </div>
+              </div>
+
         
 
 
