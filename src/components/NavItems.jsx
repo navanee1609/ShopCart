@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const NavItems = () => {
      let [menuToggle,setMenuToggle] =useState(false)
@@ -15,7 +16,26 @@ const NavItems = () => {
         }
      })
   return (
-    <div>NavItems</div>
+   
+    <header>
+        {/* header top start */}
+
+        <div>
+            <div className='container'>
+                <div className='header-top-area'>
+                    <Link to='/signup' className='lab-btn me-3'> <span>Create Account</span>
+                    </Link>
+                    <Link to='/login'>Log in</Link>
+
+                </div>
+
+            </div>
+        </div>
+         
+
+
+
+    </header>
   )
 }
 
