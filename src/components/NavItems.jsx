@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import logo from "../assets/images/logo/logo.png";
 
 const NavItems = () => {
      let [menuToggle,setMenuToggle] =useState(false)
@@ -31,8 +32,8 @@ const NavItems = () => {
 
             </div>
         </div>
-         
 
+        
 
 
     </header>
