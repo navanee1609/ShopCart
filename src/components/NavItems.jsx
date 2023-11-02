@@ -19,6 +19,8 @@ const NavItems = () => {
   return (
    
     <header className={`header-section style-4 ${headerFixed ? "header-fixed fadeInUp" : ""}`}>
+
+
         {/* header top start */}
 
         <div className={`header-top d-md-none ${socialToggle ? "open" : ""} `} >
@@ -33,6 +35,23 @@ const NavItems = () => {
             </div>
         </div>
 
+        {/* header middle */}
+
+
+        <div className="header-bottom">
+        <div className="container">
+            <div className="header-wrapper">
+                {/* logo  */}
+                        <div className="logo-search-acte">
+                        <div className="logo">
+                            <Link to="/">
+                            <img src={logo} alt="logo" />
+                            </Link>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            </div>
         
 
 
