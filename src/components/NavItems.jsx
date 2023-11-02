@@ -17,10 +17,10 @@ const NavItems = () => {
      })
   return (
    
-    <header>
+    <header className={`header-section style-4 ${headerFixed ? "header-fixed fadeInUp" : ""}`}>
         {/* header top start */}
 
-        <div>
+        <div className={`header-top d-md-none ${socialToggle ? "open" : ""} `} >
             <div className='container'>
                 <div className='header-top-area'>
                     <Link to='/signup' className='lab-btn me-3'> <span>Create Account</span>
