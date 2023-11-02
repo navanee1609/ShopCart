@@ -36,6 +36,27 @@ const NavItems = () => {
         </div>
 
         {/* header middle */}
+
+
+        <div className="header-bottom">
+        <div className="container">
+          <div className="header-wrapper">
+            {/* logo  */}
+            <div className="logo-search-acte">
+              <div className="logo">
+                <Link to="/">
+                  <img src={logo} alt="logo" />
+                </Link>
+              </div>
+            </div>
+
+
+
+
+
+            </div>
+            </div>
+            </div>
         
 
 
