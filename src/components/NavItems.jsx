@@ -40,7 +40,7 @@ const NavItems = () => {
           <div className='container'>
             <div className='header-wrapper'>
               {/* logo */}
-              <div className='logo-search-acte'>
+              <div className='logo-search-active'>
                 <div className='logo'>
                   <Link to={'/'}>
                     <img src={logo} alt="" />
@@ -56,16 +56,29 @@ const NavItems = () => {
 
               <div className='menu-area'>
                 <div className='menu'>
-                  <ul>
+                  <ul className={`lab-ul ${menuToggle } ? "acte" : ""}`}>
                     <li> <Link to='/'>Home</Link>
                     </li>
-                    <li><Link to='/'>Shop</Link></li>
-                    <li><Link to='/'>Blog</Link></li>
-                    <li><Link to='/'>About</Link></li>
-                    <li><Link to='/'>Contact</Link></li>
+                    <li><Link to='/shop'>Shop</Link></li>
+                    <li><Link to='/blog'>Blog</Link></li>
+                    <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
                   </ul>
-
                 </div>
+
+                    {/* signup btn */}
+
+                    <Link to='sign-up' className='lab-btn me-3 d-none d-md-block'>Create Account</Link>
+                  <Link to='/login' className='d-none d-md-block'>Logi In</Link>
+
+                  {/* menu toggler */}
+
+                  <div onClick={()=>setMenuToggle(!menuToggle)} className={`header-bar d-lg-none ${menuToggle ? "active" : ""}`}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                  </div>
                 
               </div>
             </div>
