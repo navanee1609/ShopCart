@@ -6,6 +6,7 @@ import Register from './Register'
 import Locationspread from './LoacationSpread'
 import AboutUs from './AboutUs'
 import AppSection from './AppSection'
+import Sponsor from './Sponsor'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Locationspread/>
       <AboutUs/>
       <AppSection/>
+      <Sponsor/>
       
     </div>
   )

@@ -43,7 +43,7 @@ const Sponsor = () => {
             <div className="container">
                 <div className="section-wrapper">
                     <div className="sponsor-slider">
-                        {/* <Swiper
+                        <Swiper
                             spaceBetween={20}
                             slidesPerView={2}
                             loop={'true'}
@@ -67,7 +67,7 @@ const Sponsor = () => {
                                 },
                             }}
                         >
-                            {sponsorList.map((val, i) => (
+                            {/* {sponsorList.map((val, i) => (
                                 <SwiperSlide key={i}>
                                     <div className="sponsor-iten">
                                         <div className="sponsor-thumb">
@@ -75,8 +75,8 @@ const Sponsor = () => {
                                         </div>
                                     </div>
                                 </SwiperSlide>
-                            ))}
-                        </Swiper> */}
+                            ))} */}
+                        </Swiper>
                     </div>
                 </div>
             </div>
