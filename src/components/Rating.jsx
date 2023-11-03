@@ -2,7 +2,7 @@ import React from 'react'
 
 const Rating = () => {
   return (
-    <div>
+    <div className='rating'>
         <span><i className='icofont-ui-rating'></i></span>
         <span><i className='icofont-ui-rating'></i></span>
         <span><i className='icofont-ui-rating'></i></span>
