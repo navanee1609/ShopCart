@@ -81,7 +81,13 @@ const ProductData = [
 ]
 
 
+
+// category showcases
+
+
 const CategoryShowCase = () => {
+
+    // category filtering
     const [items, setItems] = useState(ProductData);
     const filterItem = (categItem) => {
         const updateItems = ProductData.filter((curElem) => {
