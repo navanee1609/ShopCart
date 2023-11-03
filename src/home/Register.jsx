@@ -1,5 +1,3 @@
-import React from 'react'
-
 const subTitle = "Save The Day";
 const title = (
   <h2 className="title">
@@ -7,16 +5,12 @@ const title = (
     <span className="yellow-color">Mastering</span> <b>On Sales</b>
   </h2>
 );
-
-// description
-
 const desc = "Limited Time Offer! Hurry Up";
 const regTitle = "Register Now";
 const btnText = "Register Now";
 
-
 const Register = () => {
-
+  return (
     <section className="register-section padding-tb pb-0">
       <div className="container">
         <div className="row g-4 row-cols-lg-2 row-cols-1 align-items-center">
@@ -58,5 +52,7 @@ const Register = () => {
         </div>
       </div>
     </section>
+  );
 };
-export default Register
+
+export default Register;
