@@ -46,7 +46,7 @@ const AboutUs = () => {
                         </div>
                     ))}
                 </div>
-                {/* <div className="col">
+                <div className="col">
                     <div className="instructor-content">
                         <span className="subtitle">{subTitle}</span>
                         <h2 className="title">{title}</h2>
@@ -54,7 +54,7 @@ const AboutUs = () => {
                         <Link to="/signup" className="lab-btn"><span>{btnText}</span></Link>
                     </div>
                 </div>
-                <div className="col">
+                {/* <div className="col">
                     <div className="instructor-thumb">
                         <img src="src/assets/images/instructor/01.png" alt="" />
                     </div>
