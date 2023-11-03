@@ -8,6 +8,12 @@ const title = (
   </h2>
 );
 
+// description
+
+const desc = "Limited Time Offer! Hurry Up";
+const regTitle = "Register Now";
+const btnText = "Register Now";
+
 const Register = () => {
   return (
     <div>Register</div>
