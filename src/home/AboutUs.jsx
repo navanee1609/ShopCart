@@ -54,11 +54,11 @@ const AboutUs = () => {
                         <Link to="/signup" className="lab-btn"><span>{btnText}</span></Link>
                     </div>
                 </div>
-                {/* <div className="col">
+                <div className="col">
                     <div className="instructor-thumb">
                         <img src="src/assets/images/instructor/01.png" alt="" />
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     </div>
