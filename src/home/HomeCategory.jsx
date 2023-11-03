@@ -5,6 +5,8 @@ const subTitle = "Choose Any Products";
 const title = "Buy Everything with Us";
 const btnText = "Get Started Now";
 
+
+// home category list
 const categoryList = [
     {
         imgUrl: 'src/assets/images/category/01.jpg',
@@ -48,16 +50,22 @@ const HomeCategory = () => {
   return (
     <div className="category-section style-4 padding-tb">
     <div className="container">
+
+        {/* section header */}
         <div className="section-header text-center">
             <span className="subtitle">{subTitle}</span>
             <h2 className="title">{title}</h2>
         </div>
+
+        {/* section card */}
         <div className="section-wrapper">
             <div className="row g-4 justify-content-center row-cols-md-3 row-cols-sm-2 row-cols-1">
                 {categoryList.map((val, i) => (
                     <div className="col" key={i}>
                         <Link to="/shop" className="category-item">
                             <div className="category-inner">
+
+                                {/* image thumbnail */}
                                 <div className="category-thumb">
                                     <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
                                 </div>
