@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 // import SelectCategory from "../Shop/SelectCategory";
-// import productData from "../../products.json";
+
+import productData from '../products.json'
 import { Link } from "react-router-dom";
 
 const title = (
@@ -29,17 +30,20 @@ const bannerList = [
 const Banner = () => {
   // product search funtionality
   const [searchInput, setSearchInput] = useState("");
-//   const [filteredProducts, setFilteredProducts] = useState(productData);
+   const [filteredProducts, setFilteredProducts] = useState(productData);
+
+   console.log(productData);
 
   const handleSearch = (e) => {
+    
     const searchTerm = e.target.value;
     setSearchInput(searchTerm);
 
     // Filter products based on the search term
-    // const filtered = productData.filter((product) =>
-    //   product.name.toLowerCase().includes(searchTerm.toLowerCase())
-    // );
-    // setFilteredProducts(filtered);
+     const filtered = productData.filter((product) =>
+      product.name.toLowerCase().includes(searchTerm.toLowerCase())
+     );
+     setFilteredProducts(filtered);
   };
 
   return (
