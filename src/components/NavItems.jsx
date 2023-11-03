@@ -56,7 +56,7 @@ const NavItems = () => {
 
               <div className='menu-area'>
                 <div className='menu'>
-                  <ul className={`lab-ul ${menuToggle } ? "acte" : ""}`}>
+                  <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
                     <li> <Link to='/'>Home</Link>
                     </li>
                     <li><Link to='/shop'>Shop</Link></li>
@@ -71,13 +71,21 @@ const NavItems = () => {
                     <Link to='sign-up' className='lab-btn me-3 d-none d-md-block'>Create Account</Link>
                   <Link to='/login' className='d-none d-md-block'>Logi In</Link>
 
-                  {/* menu toggler */}
+                  {/* menu toggle btn */}
+              <div
+                className={`header-bar d-lg-none ${menuToggle ? "active" : ""}`}
+                onClick={() => setMenuToggle(!menuToggle)}
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
 
-                  <div onClick={()=>setMenuToggle(!menuToggle)} className={`header-bar d-lg-none ${menuToggle ? "active" : ""}`}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
 
+                  {/* socialToggle */}
+
+                  <div className='ellepsis-bar d-md-none' onClick={()=>setSocialToggle(!socialToggle)}>
+                    <i className='icofont-info-square'></i>
                   </div>
                 
               </div>
