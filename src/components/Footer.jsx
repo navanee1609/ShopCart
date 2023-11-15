@@ -116,24 +116,7 @@ const tweetList = [
     },
 ]
 
-const footerbottomList = [
-    {
-        text: 'Faculty',
-        link: '#',
-    },
-    {
-        text: 'Staff',
-        link: '#',
-    },
-    {
-        text: 'Students',
-        link: '#',
-    },
-    {
-        text: 'Alumni',
-        link: '#',
-    },
-]
+
 
 const Footer = () => {
   return (
