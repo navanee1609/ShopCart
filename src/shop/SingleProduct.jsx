@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import PageHeader from "../../components/PageHeader";
+
+import PageHeader from "../components/PageHeader";
 import PopularPost from "./PopularPost";
 import Tags from "./Tags";
 import Rating from "../../components/Sidebar/rating";
