@@ -80,7 +80,7 @@ const ItemList = [
 
 const quickList = [
     {
-        text: 'Summer Sessions',
+        text: 'Collaborations',
         link: '#',
     },
     {
