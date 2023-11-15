@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom";
 
 const title = "About ShopCart";
-const desc = "Welcome to ShopCart, where we blend passion with innovation to bring you a curated selection of high-quality products. Our mission is simple: to provide you with an exceptional online shopping experience. With a diverse range of products and a commitment to outstanding customer service, we take pride in delivering more than just goods—we deliver satisfaction. Explore our collection, and join us on a journey where quality meets convenience. Thank you for choosing ShopCart.";
+const desc = "Welcome to ShopCart, where passion meets innovation for an exceptional online shopping experience. Explore our curated collection for satisfaction in quality and convenience. Thank you for choosing ShopCart.";
 const ItemTitle = "Categories";
 const quickTitle = "Quick Links";
 const tweetTitle = "Recent Tweets";
@@ -108,11 +108,11 @@ const quickList = [
 const tweetList = [
     {
         iconName: 'icofont-twitter',
-        desc: <p>Aminur islam <a href="#">@ShopCart Greetings!  #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
+        desc: <p>John-Doe <a href="#">@ShopCart Greetings!  #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
     {
         iconName: 'icofont-twitter',
-        desc: <p>Somrat islam <a href="#">@ShopCart Hey! #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
+        desc: <p>William-kong <a href="#">@ShopCart Hey! #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
     },
 ]
 
