@@ -15,7 +15,7 @@ const addressList = [
     },
     {
         iconName: 'icofont-phone',
-        text: '',
+        text: '+123-456-7890',
     },
     {
         iconName: 'icofont-envelope',
