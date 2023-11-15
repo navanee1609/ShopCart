@@ -4,7 +4,8 @@ import PageHeader from '../components/PageHeader'
 function Shop() {
   return (
     <div>
-        <PageHeader/>
+              <PageHeader title={"Our Shop Pages"} curPage={"Shop"} />
+
     </div>
   )
 }
