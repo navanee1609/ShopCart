@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect, useState } from "react";
-import Tags from "../Shop/Tags";
+// import Tags from "../Shop/Tags";
 import PageHeader from "../components/PageHeader";
 import { useParams } from "react-router-dom";
 import blogList from "../utilis/blogdata";
@@ -246,7 +246,7 @@ const SingleBlog = () => {
             </div>
             <div className="col-lg-4 col-12">
               <aside>
-                <Tags />
+                {/* <Tags /> */}
                 <MostPopularPost/>
               </aside>
             </div>
