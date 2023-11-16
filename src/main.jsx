@@ -26,7 +26,6 @@ import CartPage from './shop/CartPage.jsx'
 import SingleBlog from './blog/SingleBlog.jsx';
 import About from './about/About.jsx';
 import ContactPage from './contact/ContactPage.jsx';
-import Login from './components/LoginDemo.jsx';
 
 
 const router = createBrowserRouter([
@@ -68,10 +67,7 @@ const router = createBrowserRouter([
      }
     ]
   },
-  {
-    path:'/login',
-    element: <Login/>
-  }
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
