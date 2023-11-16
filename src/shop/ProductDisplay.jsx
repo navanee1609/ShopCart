@@ -86,7 +86,7 @@ const ProductDisplay = ({ item }) => {
         <h6>{seller}</h6>
         <p>{desc}</p>
       </div>
-      {/* Single Product Cart Component here */}
+      {/* Single Product Cart Component here - cart component */}
       <div>
       <form onSubmit={handleSubmit}>
       <div className="select-product size">
