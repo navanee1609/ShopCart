@@ -73,7 +73,7 @@ const SingleBlog = () => {
                                     <li>
                                       <a href="#">
                                         <i className="icofont-calendar"></i>
-                                        April 23,2021
+                                        Nov 07, 2023
                                       </a>
                                     </li>
                                     <li>
