@@ -22,8 +22,8 @@ import '././assets/css/style.min.css';
 import Blog from './blog/Blog.jsx';
 import Shop from './shop/Shop.jsx';
 import SingleProduct from './shop/SingleProduct.jsx';
-import CartPage from './shop/CartPage.jsx'
 import SingleBlog from './blog/SingleBlog.jsx';
+import CartPage from './shop/CartPage.jsx'
 import About from './about/About.jsx';
 import ContactPage from './contact/ContactPage.jsx';
 import AuthProvider from './contexts/AuthProvider.jsx';
@@ -57,9 +57,7 @@ const router = createBrowserRouter([
      },
      {
       path:'/cart-page',
-      element: <PrivateRoute>
-        <CartPage/>
-      </PrivateRoute>
+      element: <PrivateRoute> <CartPage/>  </PrivateRoute>
      },
      {
       path:'/about',
