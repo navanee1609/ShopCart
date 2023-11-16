@@ -13,7 +13,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
@@ -32,7 +32,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
@@ -51,7 +51,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
@@ -70,7 +70,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
@@ -89,7 +89,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
@@ -108,7 +108,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
@@ -127,7 +127,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
@@ -146,7 +146,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
@@ -165,7 +165,7 @@ const blogList = [
             },
             {
                 iconName: 'icofont-calendar',
-                text: 'Jun 05,2022',
+                text: 'Nov 4, 2023',
             },
         ],
     },
