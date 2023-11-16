@@ -43,7 +43,7 @@ const [selectedCategory, setSelectedCategory] = useState("All");
     });
     setSelectedCategory(curcat); 
     setProducts(newItem);
-    // console.log(selectedCategory)
+    console.log(selectedCategory)
   };
 
   return (
