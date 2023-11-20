@@ -3,7 +3,7 @@ import PageHeader from "../components/PageHeader";
 import { Component, Fragment, useState } from "react";
 import Search from "./Search";
 import Pagination from "./Pagination";
-import ShopCategory from "./ShopCategory";
+import ShopCategory from "../shop/ShopCategory.jsx";
 import PopularPost from "./PopularPost";
 import Tags from "./Tags";
 import ProductCards from "./ProductCards";
