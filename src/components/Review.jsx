@@ -5,28 +5,29 @@ import Rating from "./Rating";
 const reviwtitle = "Add a Review";
 let ReviewList = [
   {
-    imgUrl: "/src/assets/images/instructor/01.jpg",
+    imgUrl: "/images/instructor/01.jpg",
+    // imgUrl:"/images/instructor/04.jpg" ,
     imgAlt: "Client thumb",
     name: "Ganelon Boileau",
     date: "Posted on nov 08, 2023 at 6:57 am",
     desc: "Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.",
   },
   {
-    imgUrl: "/src/assets/images/instructor/02.jpg",
+    imgUrl: "/images/instructor/02.jpg",
     imgAlt: "Client thumb",
     name: "Morgana Cailot",
     date: "Posted on nov 08, 2023 at 6:57 am",
     desc: "Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.",
   },
   {
-    imgUrl: "/src/assets/images/instructor/03.jpg",
+    imgUrl: "/images/instructor/03.jpg",
     imgAlt: "Client thumb",
     name: "Telford Bois",
     date: "Posted on nov 08, 2023 at 6:57 am",
     desc: "Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.",
   },
   {
-    imgUrl: "/src/assets/images/instructor/04.jpg",
+    imgUrl: "/images/instructor/04.jpg",
     imgAlt: "Client thumb",
     name: "Cher Daviau",
     date: "Posted on nov 08, 2023 at 6:57 am",
@@ -126,7 +127,8 @@ const Review = () => {
           </p>
           <div className="post-item">
             <div className="post-thumb">
-              <img src="/src/assets/images/shop/01.jpg" alt="shop" />
+              <img src="/images/shop/01.jpg" alt="shop" />
+              
             </div>
             <div className="post-content">
               <ul className="lab-ul">
