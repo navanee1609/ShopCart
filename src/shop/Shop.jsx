@@ -8,8 +8,8 @@ import PopularPost from "./PopularPost";
 import Tags from "./Tags";
 import ProductCards from "./ProductCards";
 const showResult = "Showing 01 - 12 of 139 Results";
-import Data from "/src/products.json"
-
+// import Data from "/products.json"
+import Data from '../products.json'
 const Shop = () => {
   const [GridList, setGridList] = useState(true);
   const [products, setProducts] = useState(Data);
