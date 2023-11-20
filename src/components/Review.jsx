@@ -6,6 +6,7 @@ const reviwtitle = "Add a Review";
 let ReviewList = [
   {
     imgUrl: "/images/instructor/01.jpg",
+    // imgUrl:"/images/instructor/04.jpg" ,
     imgAlt: "Client thumb",
     name: "Ganelon Boileau",
     date: "Posted on nov 08, 2023 at 6:57 am",
@@ -127,6 +128,7 @@ const Review = () => {
           <div className="post-item">
             <div className="post-thumb">
               <img src="/images/shop/01.jpg" alt="shop" />
+              
             </div>
             <div className="post-content">
               <ul className="lab-ul">
