@@ -67,7 +67,7 @@ const ProductDisplay = ({ item }) => {
     setColor("Select Color");
     setCoupon("");
 
-    // You can add further logic, such as displaying a confirmation message.
+    //  can add further logic, such as displaying a confirmation message.
   };
 
   return (
