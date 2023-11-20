@@ -88,7 +88,7 @@ const [selectedCategory, setSelectedCategory] = useState("All");
             <div className="col-lg-4 col-12">
               <aside>
                 <Search products={products} GridList={GridList} />
-                <ShopCategory />
+                {/* <ShopCategory /> */}
                 <ShopCategory
                   filterItem={filterItem}
                   setItem={setProducts}
