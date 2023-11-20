@@ -13,14 +13,12 @@ import { Autoplay } from "swiper/modules";
 import Review from '../components/Review';
 import MostPopularPost from '../components/Sidebar/MostPopularPost'
 import ProductDisplay from "./ProductDisplay";
-const reviwtitle = "Add a Review";
 
 const SingleProduct = () => {
   const [product, setProduct] = useState([]);
   const { id } = useParams();
   useEffect(() => {
-    
-    fetch("/products.json")
+    fetch("/src/products.json")
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
