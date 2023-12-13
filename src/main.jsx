@@ -76,7 +76,7 @@ const router = createBrowserRouter([
     element: <Login/>
   },
   {
-    path: '/sign-up',
+    path: 'sign-up',
     element: <Signup/>
   }
   
@@ -89,9 +89,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
  </AuthProvider>
 )
-
-
-
 
 
 
